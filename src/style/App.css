@@ -1,0 +1,53 @@
+.app,
+.appLoading {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  min-height: 100vh;
+  text-align: center;
+  background-color: rgb(124, 124, 124);
+  background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.main-container,
+.error-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px 0px 0px;
+}
+
+.loading {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 50%;
+  z-index: 0;
+  border-right: 4px solid rgba(23, 132, 255, 0.7);
+  border-left: 4px solid rgba(255, 255, 255, 0.7);
+  border-top: 4px solid rgba(255, 255, 255, 0.7);
+  border-bottom: 4px solid rgba(255, 255, 255, 0.7);
+  animation: loading 1s infinite ease;
+}
+
+@keyframes loading {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

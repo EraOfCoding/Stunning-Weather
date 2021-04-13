@@ -1,13 +1,33 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "montoseratt", sans-serif;
+}
+
+.app.Main {
+  background-image: url(./assets/images/main.webp);
+}
+.app.Rain,
+.app.Drizzle {
+  background-image: url(./assets/images/rain.jpg);
+}
+.app.Clear {
+  background-image: url(./assets/images/sunny.jpg);
+}
+.app.Foggy,
+.app.Mist,
+.app.Smoke,
+.app.Haze,
+.app.Dust {
+  background-image: url(./assets/images/foggy.jpg);
+}
+.app.Snowy {
+  background-image: url(./assets/images/snow.jpg);
+}
+.app.Clouds {
+  background-image: url(./assets/images/clouds.png);
 }
