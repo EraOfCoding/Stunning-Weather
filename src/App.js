@@ -3,13 +3,7 @@ import Main from './components/Main';
 import './style/Search.css'
 import { useState } from 'react';
 import Error from './components/Error';
-
-const api = {
-  key: "eb0cc5039a77d1ad9b48255529de2da8",
-  base: "https://api.openweathermap.org/data/2.5/",
-}
-
-export default api
+import api from '../config'
 
 function App() {
   const [query, setQuery] = useState('')
