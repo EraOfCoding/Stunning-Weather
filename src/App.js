@@ -3,7 +3,7 @@ import Main from './components/Main';
 import './style/Search.css'
 import { useState } from 'react';
 import Error from './components/Error';
-import api from './config'
+import api from './config' 
 
 function App() {
   const [query, setQuery] = useState('')
