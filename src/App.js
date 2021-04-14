@@ -6,6 +6,7 @@ import Error from './components/Error';
 import api from './config'
 
 function App() {
+  console.log(process.env.REACT_APP_KEY)
   const [query, setQuery] = useState('')
   const [weather, setWeather] = useState()
   const [loading, setLoading] = useState(false)
