@@ -8,6 +8,10 @@ body {
   font-family: "montoseratt", sans-serif;
 }
 
+.app {
+  background-position: center;
+}
+
 .app.Main {
   background-image: url(./assets/images/main.webp);
 }

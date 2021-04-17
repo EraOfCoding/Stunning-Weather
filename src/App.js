@@ -3,7 +3,13 @@ import Main from './components/Main';
 import './style/Search.css'
 import { useState } from 'react';
 import Error from './components/Error';
-import api from './config' 
+
+const { REACT_APP_API_KEY, REACT_APP_API_BASE } = process.env
+
+const api = {
+  key: REACT_APP_API_KEY,
+  base: REACT_APP_API_BASE,
+}
 
 function App() {
   const [query, setQuery] = useState('')
