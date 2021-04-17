@@ -19,6 +19,26 @@ h6 {
   margin-bottom: 0;
 }
 
+.author {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+}
+
+.author h3 {
+  text-shadow: rgba(0, 0, 0, 0.507) 0 0 7px;
+}
+
+.author a {
+  cursor: pointer;
+}
+
+.author a:hover {
+  text-decoration: underline;
+}
+
 .main-container,
 .error-container {
   display: flex;

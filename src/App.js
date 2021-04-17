@@ -67,6 +67,9 @@ function App() {
             <div className={loading ? "loading" : ""}></div>
           </div>
         )}
+        <div className="author">
+          <h3>Made with ❤️ by <a onClick={() => window.open(`https://github.com/EraOfCoding`, `_blank`)}>Yerassyl</a></h3>
+        </div>
       </div>
     </div>
   );
