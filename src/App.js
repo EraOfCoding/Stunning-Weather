@@ -1,3 +1,4 @@
+import React from 'react'
 import './style/App.css';
 import Main from './components/Main';
 import './style/Search.css'

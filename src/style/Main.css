@@ -12,6 +12,20 @@
   }
 }
 
+#weather-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  cursor: text;
+}
+
+#emoji {
+  font-size: 2rem;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+
 .main h1 {
   font-size: 4.5rem;
   text-shadow: 3px 3px rgba(0, 0, 0, 0.3);
