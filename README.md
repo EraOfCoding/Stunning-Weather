@@ -1,4 +1,4 @@
-# Good looking Wether
+# Stunning Wether
 It is my school project that I made with love. If you are my teacher and you are reading this, please give me 100% xd . If you are not my teacher, then enjoy and let me know if you found issues or you have suggestions! 
 
 # Getting Started with Create React App
